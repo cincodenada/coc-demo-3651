@@ -1,8 +1,8 @@
-echo "vim without .vimrc" > dir_a/file
-vim -u NONE -S demo.vim
+echo "vim without coc.nvim" > dir_a/file
+vim -u vimrc_no_coc.vim -S demo.vim
 echo "vim with coc.nvim" > dir_a/file
-vim -u mini.vim -S demo.vim
-echo "nvim without .vimrc" > dir_a/file
-nvim -u NONE -S demo.vim
+vim -u vimrc_with_coc.vim -S demo.vim
+echo "nvim without coc.nvim" > dir_a/file
+nvim -u vimrc_no_coc.vim -S demo.vim
 echo "nvim with coc.nvim" > dir_a/file
-nvim -u mini.vim -S demo.vim
+nvim -u vimrc_with_coc.vim -S demo.vim

@@ -1,7 +1,3 @@
-" Make sure autochdir is enabled
-" (so we can just run without a vimrc)
-set autochdir
-
 " Set up left window
 e dir_a/file
 lcd dir_b
